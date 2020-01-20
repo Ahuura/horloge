@@ -1,0 +1,57 @@
+body {
+    background: url(../img/horloge.png) fixed no-repeat center;
+
+}
+
+div#anal1 {
+    width: 600px;
+    height: 600px;
+    position: relative;
+
+}
+
+
+#minute {
+    position: absolute;
+    height: 150px;
+    top: 150px;
+    left: 620px;
+    z-index: 9;
+    transform-origin: 50% 90%;
+
+
+}
+
+#heure {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    left: 617px;
+    z-index: 9;
+    top: 198px;
+    transform-origin: 45% 93%;
+}
+
+#seconde {
+    position: absolute;
+    height: 200px;
+    left: 630px;
+    top: 143px;
+    z-index: 9;
+    transform-origin: 40% 70%;
+}
+
+.btn {
+    position: absolute;
+    top: 510px;
+    left: 540px;
+
+    color: white;
+}
+#bouton {
+    position: absolute;
+    height: 52px;
+    left: 613px;
+    top: 258px;
+    z-index: 9;
+   
